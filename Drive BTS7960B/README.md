@@ -1,44 +1,56 @@
 # Drive BTS7960B
 
-## Detail Pin Input
+## Control Input Pin Function
 
-RPWM = Input PWM Forward Level ,Aktif High
+RPWM Forward Level or PWM signal, Active High
 
-LPWM = Input PWM Reverse Level ,Aktif High
+LPWM Reverse Level or PWM signal, Active High
 
-R_EN   = Input Enable Forward Driver, Aktif High
+R_EN Forward Drive Enable Input, Active High/ Low Disable
 
-L_EN   = Input Enable Reverse Driver, Aktif High
+L_EN Reverse Drive Enable Input, Active High/Low Disable
 
-R_IS     = Forward Drive ,Side current alarm output
+R_IS Forward Drive, Side current alarm output
 
-L_IS     = Reverse Drive  ,Side current alarm output
+L_IS Reverse Drive, Side current alarm output
 
-Vcc      = +5 V Power Supply Mikrokontroler
+Vcc +5V Power Supply microcontroller
 
-Gnd     = Gnd   Power Supply Mikrokontroler
+Gnd Ground Power Supply microcontroller
 
 
-## Detail Pin Output
+## Motor Power Supply & Output Pin Assignment
 
-W-  = Di hubungkan ke Motor DC (V-)
+B+ Positive Motor Power Supply. 6 ~ 27VDC
 
-W+= Di hubungkan ke Motor DC (V+)
+B- Negative Motor Power Supply. Ground
 
-B+ = Tegangan Input V+ Motor
+M+ Motor Output +
 
-B-   = Tegangan Input V-  Motor
+M- Motor Output -
 
-## SPESIFIKASI
 
-Double BTS7960 high current (43A) H-bridge drivers
+## Brief Data
 
-Input voltage: 6V-27V
+Input Voltage: 6 ~ 27Vdc.
 
-Model: IBT-2
+Driver: Dual BTS7960 H Bridge Configuration.
 
-Maximum current: 43A
+Peak current: 43-Amp.
 
-Input level: 3.3-5V
+PWM capability of up to 25 kHz.
 
-Control mode: PWM or level
+Control Input Level: 3.3~5V.
+
+Control Mode: PWM or level
+
+Working Duty Cycle: 0 ~100%.
+
+Over-voltage Lock Out.
+
+Under-voltage Shut Down.
+
+Board Size (LxWxH): 50mm x 50mm x 43mm.
+
+Weight: ~66g.
+
